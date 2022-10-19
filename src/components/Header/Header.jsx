@@ -43,6 +43,24 @@ const Header = () => {
               ))}
             </div>
           </div>
+
+          {/* ===================nav right icons ===========================*/}
+          <div className="nav__right">
+            <span className="cart_icon">
+              <i class="ri-shopping-basket-line"></i>
+              <span className="cart_badge">2</span>
+            </span>
+
+            <span className="user">
+              <Link to="/login">
+                <i class="ri-user-line"></i>
+              </Link>
+            </span>
+
+            <span className="mobile__menu">
+              <i class="ri-menu-line"></i>
+            </span>
+          </div>
         </div>
       </Container>
     </header>
