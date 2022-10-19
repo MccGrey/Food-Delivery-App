@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <header className="header">
       <Container>
-        <div className="nav_wrapper">
+        <div className="nav_wrapper d-flex align-items-center justify-content-between">
           <div className="logo">
             <img src={logo} alt="logo" />
             <h5>Tasty Treat</h5>
@@ -35,7 +35,7 @@ const Header = () => {
 
           {/* ================= menu ==================*/}
           <div className="navigation">
-            <div className="menu">
+            <div className="menu d-flex align-items-center gap-5">
               {nav__links.map((item, index) => (
                 <NavLink to={item.path} key={index}>
                   {item.display}
@@ -45,7 +45,7 @@ const Header = () => {
           </div>
 
           {/* ===================nav right icons ===========================*/}
-          <div className="nav__right">
+          <div className="nav__right d-flex align-items-cnter gap-3">
             <span className="cart_icon">
               <i class="ri-shopping-basket-line"></i>
               <span className="cart_badge">2</span>
