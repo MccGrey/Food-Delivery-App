@@ -3,6 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
 /* reset default style */
 
 * {
@@ -11,11 +14,33 @@
   box-sizing: border-box;
 }
 
+/* general style */
+:root {
+  --primary-color: #800f2f;
+  --accent-color: #ffccd5;
+  --white-color: #ffffff;
+  --grey-color: #b8b8b8;
+  --black-color: #323031;
+  --error-color: #f04438;
+  --warning-color: #f09a38;
+  --success-color: #039855;
+
+  --container-width-lg: 92%;
+  --container-width-md: 92%;
+  --container-width-sm: 94%;
+
+  --transition: all 400ms ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* base style */
 
 body {
-  background: #fcfcfc;
-  font-family: "Istok Web", sans-serif;
+  background: var(--white-color);
+  font-family: "oswald", sans-serif;
 }
 
 h1,
@@ -24,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "RocknRoll One", sans-serif !important;
+  font-family: "oswald", sans-serif !important;
 }
 
 a {
