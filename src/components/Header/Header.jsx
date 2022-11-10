@@ -15,12 +15,12 @@ const nav__links = [
     path: "/foods",
   },
   {
-    display: "Cart",
-    path: "/cart",
-  },
-  {
     display: "Contact",
     path: "/contact",
+  },
+  {
+    display: "Cart",
+    path: "/cart",
   },
 ];
 
@@ -53,15 +53,15 @@ const Header = () => {
 
           {/* ===================nav right icons ===========================*/}
           <div className="nav__right d-flex align-items-cnter gap-3">
-            <span className="cart_icon">
-              <i class="ri-shopping-basket-line"></i>
-              <span className="cart_badge">2</span>
-            </span>
-
             <span className="user">
               <Link to="/login">
                 <i class="ri-user-line"></i>
               </Link>
+            </span>
+
+            <span className="cart_icon">
+              <i class="ri-shopping-basket-line"></i>
+              <span className="cart_badge">2</span>
             </span>
 
             <span className="mobile__menu">
