@@ -51,11 +51,11 @@ const Footer = () => {
             <Link to="/home" style={{ color: "white", fontSize: "1.2rem" }}>
               Home
             </Link>
-            <br /> <br />
+            <br /> <br /> <br />
             <Link to="/foods" style={{ color: "white", fontSize: "1.2rem" }}>
               Alcoholic Drinks
             </Link>
-            <br /> <br />
+            <br /> <br /> <br />
             <Link to="/contact" style={{ color: "white", fontSize: "1.2rem" }}>
               Non-Alcoholic Drinks
             </Link>
