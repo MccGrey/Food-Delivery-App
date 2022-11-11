@@ -67,6 +67,12 @@ const Home = () => {
             </div>
           </div>
         </Container>
+        <div className="flash-timer">
+          <div className="  flash-sale">
+            <h2>Flash Sale</h2>
+            <h3>12hrs:20mins:24secs</h3>
+          </div>
+        </div>
       </section>
     </Helmet>
   );
