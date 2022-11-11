@@ -1,5 +1,4 @@
 .hero-container {
-  padding: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
@@ -14,6 +13,7 @@
 }
 
 .hero-desc > h3 {
+  font-weight: 500;
   font-size: 44px;
   color: var(--black-color);
 }
@@ -59,39 +59,4 @@
 .hero-swiper {
   width: 100%;
   margin: auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .hero-desc > h3 {
-    font-size: 33px;
-    color: var(--black-color);
-  }
-
-  .hero-desc > p {
-    color: var(--black-color);
-    width: 80%;
-    margin-top: 1rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .hero-container {
-    grid-template-columns: 1fr;
-    margin-top: -2rem;
-  }
-
-  .hero-desc > h3 {
-    text-align: center;
-    font-size: 1.7rem;
-    font-weight: 400;
-  }
-
-  .hero-desc > p {
-    text-align: center;
-    width: 100%;
-  }
-
-  .hero-desc .shop-now {
-    margin-left: 5rem;
-  }
 }
