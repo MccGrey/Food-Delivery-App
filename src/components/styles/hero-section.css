@@ -82,3 +82,27 @@
 .flash-sale > h3 {
   color: var(--error-color);
 }
+
+.food__category {
+  background: var(--primary-color);
+  text-align: center;
+  margin-top: -100px;
+  padding: 15px 0px;
+  border-radius: 8px;
+}
+
+.food__category button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background: transparent;
+  color: var(--white-color);
+  font-family: "oswald", sans-serif;
+  font-size: 1.2rem;
+}
+
+.foodBtnActive {
+  background: var(--white-color) !important;
+  color: var(--black-color) !important;
+  border-radius: 5px;
+}

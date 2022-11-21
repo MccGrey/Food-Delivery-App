@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "../components/Helmet/Helmet";
-import { Container } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 
 import HERO1 from "../../src/assets/images/cognac 1.png";
@@ -73,6 +73,23 @@ const Home = () => {
             <h3>12hrs:20mins:24secs</h3>
           </div>
         </div>
+      </section>
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12">
+              <div className="food__category d-flex align-items-center justify-content-center gap-5">
+                <button className="all__btn foodBtnActive">All</button>
+                <button className="d-flex align-items-center gap-2">
+                  Alcoholic
+                </button>
+                <button className="d-flex align-items-center gap-2">
+                  Non-alcoholic
+                </button>
+              </div>
+            </Col>
+          </Row>
+        </Container>
       </section>
     </Helmet>
   );
